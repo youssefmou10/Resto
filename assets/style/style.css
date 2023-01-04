@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:'Poppins', sans-serif; 
+    box-sizing: border-box;
+    /* animation link */
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+header{
+    position: fixed;
+    top:0%;
+    left:0%;
+    padding:20px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+.logo{
+    color:white; 
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+header span{
+    color: #fb9119;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.navbar li{
+    
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    color:white;
+
+}
+.btn-reservation{
+    background-color: #fb9119;
+    color: white;
+    padding:10px 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.btn-reservation:hover{
+    background-color: #d87710;
+    transition: ease-in;
+}
+header .navbar li a:hover{
+    color: #fb9119;
+    border-bottom: 2px solid #fb9119;
+}
+/* Banniere */
+.banniere{
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1559941003-4f656f95b734?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&q=80");
+    background-size: cover;
+}
+section .contenu{
+    max-width: 90%;
+    height:400px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.contenu h3{
+    font-size: 3em;
+    color:#fff;
+    text-align: center;
+}
+.contenu p {
+    text-align:center;
+    color:white;
+}
+.btn{
+margin-left: 20px;
+}
+.btn-menu,.btn-rese{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top:10px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 10px;
+
+}
+.btn-menu{
+    background-color: #fb9119;
+}
+.btn-rese{
+    background-color: #2a6493;
+}
+.btn-rese:hover{
+    letter-spacing: 4px;
+}
+/* A props  */
+
+.Apropos {
+  width: 100%;
+  display: flex;
+padding-left: 170px;
+}
+.title{
+    width:70%;
+    padding: 50px;
+    text-transform:uppercase;
+
+}
+h3{
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+.title span{
+    color:#fb9119;
+}
+
+.img{
+    width:50%;
+    padding:70px;
+}
+/* MENU */
+.menu{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.title-text{
+    margin:30px auto;
+    width:68%;
+}
+.mrnu1 {
+    width: 100%;
+    margin: 5px auto;
+  }
+  .image {
+    width:100%;
+    margin:20px;
+    border: 2px solid #fff;
+    padding: 20px;
+box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+  }
+  .total-image {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+   
+  }
+  img{
+      width:100%;
+      height: 200px;
+      flex-flow: row wrap;
+  }
+  .title-text p {
+    font-weight: 300;
+    color: #111;
+    padding-left: 7px;
+  }
+  .title-text h3 {
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .image p{
+      text-align: center;
+  }
+  .button-mrenu {
+      margin: 0 auto;
+      width:25%;
+  }
+  .button-mrenu a{
+      display: inline-block;
+      background-color: #fb9119;
+      text-decoration: none;
+      text-align: center;
+      padding:10px;
+      color:white;
+      margin-left: 40px;
+    width: 150px;
+
+  }
+  .button-mrenu a:hover{
+      letter-spacing: 2px;
+  }
+/* Expert */
+.title-text span{
+    color:#fb9119;
+}
+/* nos experts  */
+.nosexperts{
+    width:100%;
+}
+.title-expert{
+    width:70%;
+    margin:20px auto;
+}
+.title-expert h3{
+    text-align: center;
+}
+.title-expert span{
+    color:#fb9119;
+}
+.experts {
+    width: 75%;
+    display: flex;
+    margin:0 auto;
+  }
+  .image-epert {
+    width: 50%;
+    margin: 10px;
+  }
+  .image-epert p{
+      text-align: center;
+  }
+  /* clents */
+  .nosclient{
+      width:100%;
+        /* background-image: url("https://media.istockphoto.com/id/1350200362/photo/christmas-recipe-menu-blank-black-paper-on-rustic-wooden-background-christmas-menu-card.jpg?s=612x612&w=is&k=20&c=BZlUIg5UKzEHqaIYGxQfw1oUUWMQfNatTZzpDIreLtQ=");
+        background-size: cover; */
+  }
+  .title{
+   
+  }
+  .nosclienttitle h3 {
+    width: 70%;
+    text-align: center;
+  }
+  .nosclienttitle p {
+    width: 70%;
+    margin: 0 auto;
+  }
